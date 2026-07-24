@@ -2,10 +2,11 @@
 
 # Baran Fırat Şahin
 
-**Offensive Security · Fullstack · Applied AI · Markets** · Konya, Türkiye
+**Offensive Security · Fullstack · Applied AI · Markets**
 
 <a href="https://fsahin.com"><img src="https://img.shields.io/badge/%E2%97%89_LIVE-fsahin.com-39ff88?style=for-the-badge&labelColor=05070a"/></a>
 <a href="https://tr.linkedin.com/in/barannn"><img src="https://img.shields.io/badge/LinkedIn-Baran_F%C4%B1rat_%C5%9Eahin-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=05070a"/></a>
+<a href="https://baranfiratsahin.github.io/"><img src="https://img.shields.io/badge/SITE-baranfiratsahin.github.io-ffb000?style=for-the-badge&labelColor=05070a"/></a>
 <img src="https://komarev.com/ghpvc/?username=baranfiratsahin&style=for-the-badge&color=ffb000&label=PROFILE+VIEWS&labelColor=05070a"/>
 
 <br>
@@ -38,7 +39,7 @@
 baran@firat-group:~$ whoami --full
   name      : Baran Fırat Şahin
   role      : IT Operations Manager · BEQW SYSTEMS [AR-GE]
-  location  : Konya, Türkiye
+  location  : Türkiye
   builds    : live systems · security tooling · trading infra · offline AI
   doctrine  : real data · honest failures · ships to production
   flagship  : https://fsahin.com  →  fullscreen live-data world terminal
@@ -54,6 +55,6 @@ baran@firat-group:~$ whoami --full
 ![MT5](https://img.shields.io/badge/MetaTrader_5-markets-ff3355?style=flat-square&labelColor=0b0e14)
 ![Linux](https://img.shields.io/badge/Linux-hardening-ffb000?style=flat-square&logo=linux&logoColor=ffb000&labelColor=0b0e14)
 
-**[fsahin.com](https://fsahin.com)** · Konya, Türkiye · `builds live systems`
+**[fsahin.com](https://fsahin.com)** · **[baranfiratsahin.github.io](https://baranfiratsahin.github.io/)** · `builds live systems`
 
 </div>
