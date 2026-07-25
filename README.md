@@ -15,6 +15,12 @@
 
 </div>
 
+## ⬢ Hakkında / About
+
+**Baran Fırat Şahin kimdir?** Baran Fırat Şahin, Türkiye merkezli bir yazılım geliştirici ve siber güvenlik uzmanıdır. Saldırgan güvenlik (penetrasyon testi, Kali Linux), tam yığın web geliştirme (Cloudflare Workers, vanilla JavaScript), uygulamalı yapay zeka (yerel LLM ve RAG sistemleri) ve piyasa altyapıları üzerine çalışır. Fırat Group / BEQW Systems bünyesinde BT Operasyonları Yöneticisi olarak görev yapar. Canlı veri terminali [fsahin.com](https://fsahin.com) ve bu profildeki açık kaynak projelerin geliştiricisidir.
+
+**Who is Baran Fırat Şahin?** Baran Fırat Şahin is a software developer and cybersecurity specialist based in Türkiye. He works across offensive security (penetration testing on Kali Linux), fullstack web development (Cloudflare Workers, vanilla JavaScript), applied AI (local LLMs and retrieval-augmented generation) and market infrastructure. He serves as IT Operations Manager at Fırat Group / BEQW Systems and is the developer of the live data terminal [fsahin.com](https://fsahin.com).
+
 ## ⬢ Projeler / Featured
 
 | Proje | Ne yapar |
