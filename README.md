@@ -15,11 +15,21 @@
 
 </div>
 
-## ⬢ Hakkında / About
+## ⬢ Sistemler / What's here
 
-**Baran Fırat Şahin kimdir?** Baran Fırat Şahin, Türkiye merkezli bir yazılım geliştirici ve siber güvenlik uzmanıdır. Saldırgan güvenlik (penetrasyon testi, Kali Linux), tam yığın web geliştirme (Cloudflare Workers, vanilla JavaScript), uygulamalı yapay zeka (yerel LLM ve RAG sistemleri) ve piyasa altyapıları üzerine çalışır. Fırat Group / BEQW Systems bünyesinde BT Operasyonları Yöneticisi olarak görev yapar. Canlı veri terminali [fsahin.com](https://fsahin.com) ve bu profildeki açık kaynak projelerin geliştiricisidir.
+Bu profildeki depolar dört alanda toplanır: **canlı veri altyapıları**, **güvenlik araçları**, **çevrimdışı yapay zeka** ve **piyasa altyapıları**.
 
-**Who is Baran Fırat Şahin?** Baran Fırat Şahin is a software developer and cybersecurity specialist based in Türkiye. He works across offensive security (penetration testing on Kali Linux), fullstack web development (Cloudflare Workers, vanilla JavaScript), applied AI (local LLMs and retrieval-augmented generation) and market infrastructure. He serves as IT Operations Manager at Fırat Group / BEQW Systems and is the developer of the live data terminal [fsahin.com](https://fsahin.com).
+**[fsahin.com](https://fsahin.com) — World Terminal.** Tek ekranda 16 canlı veri akışını harita üzerinde birleştiren gerçek zamanlı terminal: deprem (USGS/AFAD), yangın ve doğa olayları (NASA EONET), uçuşlar (topluluk ADS-B ağları, 8 bölgelik ızgara + saniyelik ara değerleme), ISS, yağış radarı (RainViewer), uzay havası (NOAA Kp), hava ve hava kalitesi (Open-Meteo), TR + dünya haber akışı, internet kesintileri (IODA/Georgia Tech), piyasa verileri ve Wikimedia canlı olay akışı. Çerçeve, derleme adımı ve paketleyici kullanılmadan saf JavaScript + Leaflet ile yazıldı; tek bir Cloudflare Worker üzerinde çalışıyor, durum Workers KV'de tutuluyor. Tasarım ilkesi: her değer canlı bir kaynağa iner, kaynak düşerse veri uydurulmaz — panel `SIGNAL LOST` durumuna geçer. Haber başlığında geçen yer adı haritada işaretlenir.
+
+**Güvenlik.** Kali Linux ekosistemi üzerine kurulu, yetkili değerlendirmeler için zafiyet taraması ve penetrasyon testi otomasyonu; sistem sertleştirme akışları.
+
+**Çevrimdışı yapay zeka.** Buluta bağlanmadan çalışan akıl yürütme sistemi: yerel dil modeli (GLM-4-9B), kişisel arşiv üzerinde RAG (BM25 indeks, hibrit yeniden sıralama, bağlamsal parça sınırı skorlama) ve bir soruyu çok sesli tartışan panel mimarisi.
+
+**Piyasa altyapısı.** Emir yaşam döngüsü, risk katmanı (pozisyon limitleri, drawdown koruması, acil durdurma), backtest iskeleti ve equity/PnL günlüğü. Strateji ve parametreler tasarım gereği private.
+
+**Ayrıca:** afet anında altyapı çöktüğünde çalışan çevrimdışı mesh iletişim ağı konsepti, arşiv kurtarma araçları, harita/tile işleme, tasarım sistemi token setleri ve Blender pipeline otomasyonu.
+
+Detaylı teknik arşiv: **[baranfiratsahin.github.io](https://baranfiratsahin.github.io/)**
 
 ## ⬢ Projeler / Featured
 
