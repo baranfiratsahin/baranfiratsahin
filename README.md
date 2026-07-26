@@ -15,50 +15,27 @@
 
 </div>
 
-## ⬢ Calisma hacmi ve alanlar (2024-2026)
+## ⬢ Öne çıkan sistemler
 
-Haziran 2024 - Haziran 2026 arasindaki calisma arsivi: **575 calisma oturumu**, toplam **113.792 mesaj**. Oturum basina ortalama 198 mesaj; en yogun tek calisma 2.655 mesaj. Yil dagilimi: 2024'te 64, 2025'te 377, 2026'nin ilk yarisinda 134 oturum.
+| Sistem | Ne yapar |
+|--------|----------|
+| **[▸ fsahin.com — World Terminal](https://fsahin.com)** | Dünyayı tek ekrandan izleyen, gerçek zamanlı veriyle çalışan canlı harita terminali. Sıfırdan, çerçeve kullanılmadan yazıldı; üretimde çalışıyor. **[CANLI ↗](https://fsahin.com)** |
+| **[Acil Çevrimdışı İletişim Ağı](https://github.com/baranfiratsahin/Deprem-yangin-acil-offline-iletisim-agi)** | Afet anında altyapı çöktüğünde haberleşmeyi sürdürmeyi hedefleyen çevrimdışı iletişim konsepti |
+| **[Güvenlik Test Araç Seti](https://github.com/baranfiratsahin/DDOS-VULN-PENTEST-Linux-Bot-)** | Yetkili değerlendirmeler için Linux tabanlı zafiyet tarama ve pentest otomasyonu *(teknik ayrıntılar özel)* |
+| **[Çevrimdışı Yapay Zeka Sistemi](https://github.com/baranfiratsahin/Yerli-ve-milli-yapay-zeka-LLM)** | Buluta bağlanmadan tamamen yerel çalışan akıl yürütme ve bilgi erişim sistemi |
+| **[Sistematik Ticaret Altyapısı](https://github.com/baranfiratsahin/Quantitive-trading-bot)** | Üretim seviyesinde ticaret altyapısı *(mimari, strateji ve parametreler özel)* |
+| **[Tasarım Sistemi ve Arayüz Kitleri](https://github.com/baranfiratsahin/ui-forge)** | Yeniden kullanılabilir bileşenler, token setleri, erişilebilirlik odaklı arayüzler |
 
-| Hacim | Alan |
-|---|---|
-| **25.776 mesaj** | Ticaret ve piyasa altyapilari — otonom bot gelistirme, tahmin piyasasi, kaldiracli kripto, forex/endeks, gosterge ve portfoy arastirmasi |
-| **19.754 mesaj** | E-ticaret ve is operasyonu — Shopify magaza optimizasyonu, katalog uretimi, uluslararasi satis, B2B otomasyon |
-| **16.744 mesaj** | Web, platform ve arayuz — kimlik siteleri, panel/dashboard, API ve kenar dagitimi |
-| **11.146 mesaj** | Yapay zeka, ajan ve LLM sistemleri — ajan modlari, istem muhendisligi, RAG, model secimi, hafiza mimarileri |
-| **9.811 mesaj** | Veri, otomasyon ve script — arsiv ayristirma, JSON/CSV donusum, veri cekme, surec otomasyonu |
-| **7.230 mesaj** | Tasarim, 3B ve gorsel uretim — Blender pipeline, otomotiv render, marka ve grafik tasarim |
-| **4.114 mesaj** | Siber guvenlik — pentest, zafiyet tarama, bug bounty araclari, sifreleme, ag analizi |
+## ⬢ Çalışma alanları
 
-**Siber guvenlik.** Kali Linux uzerinde penetrasyon testi ve zafiyet taramasi, Nuclei tabanli tarama akislari ve raporlama otomasyonu, bug bounty amacli arac gelistirme, ag seviyesinde DPI analizi, sifreleme uygulamalari, bulut guvenligi ve kimlik dogrulama yapilandirmasi (MFA, erisim politikalari). Yalnizca yetkili degerlendirmeler kapsaminda.
+- **Saldırgan güvenlik** — penetrasyon testi, zafiyet değerlendirmesi, sistem sertleştirme, güvenlik otomasyonu *(yalnızca yetkili değerlendirmeler)*
+- **Tam yığın ve kenar geliştirme** — gerçek zamanlı arayüzler, kenar dağıtımı, veri görselleştirme
+- **Uygulamalı yapay zeka** — tamamen yerel çalışan dil modeli ve bilgi erişim sistemleri, otonom ajan mimarileri
+- **Piyasa altyapıları** — sistematik ticaret sistemleri, risk kontrolü, doğrulama disiplini
+- **Veri ve otomasyon** — büyük arşivlerin işlenmesi, bilgi sistemleri, süreç otomasyonu
+- **3B üretim ve görsel tasarım** — pipeline otomasyonu, görselleştirme, marka çalışmaları
 
-**Canli veri altyapilari.** [fsahin.com](https://fsahin.com) World Terminal — 16 canli akis (USGS/AFAD deprem, NASA EONET yangin, toplulukADS-B ucuslari, ISS, RainViewer yagis radari, NOAA Kp uzay havasi, Open-Meteo hava/AQI, TR + dunya haberleri, IODA internet kesintileri, piyasa verileri, Wikimedia olay akisi) tek Cloudflare Worker + KV uzerinde, cercevesiz saf JavaScript + Leaflet ile. Kaynak duserse veri uydurulmaz, panel `SIGNAL LOST` durumuna gecer.
-
-**Yapay zeka, RAG ve ajan sistemleri.** Tamamen cevrimdisi yerel LLM (GLM-4-9B) tabanli akil yurutme; elle kurulmus RAG hatti: BM25 indeks, hibrit skor fuzyonuyla yeniden siralama, baglamsal parca oneki, parca siniri skorlama, erisim benchmark kosucusu; cok-personali konsey mimarisi; otonom ajan modlari ve gorev donguleri, ajan istem muhendisligi, model ailesi karsilastirma/secimi, MCP sunuculari, beceri ve is akisi otomasyonu, terminal HUD araclari, sesli asistan, sohbet arsivi denetim ve ozetleme sistemleri.
-
-**Veri kurtarma ve korpus muhendisligi.** Iki yillik arsivin kurtarilmasi — 575 oturumun tek sorgulanabilir korpusa donusturulmesi (ham arsiv ~495 MB), ayristirma/dogrulama scriptleri, zaman cizelgesi ve profil cikarimi, konu bazli ozetleme; varlik-kavram-kaynak yapisinda Obsidian bilgi kasasi (140+ not); JSON sema duzeltme, CSV/UTF-8 donusum ve toplu katalog uretimi.
-
-**Piyasa altyapilari ve otonom ticaret.** Tahmin piyasasi (Polymarket) tarama/arbitraj/yurutme catisi, kaldiracli kripto ticaret cekirdegi (Binance, Hyperliquid), MetaTrader 5 uzerinde XAUUSD/NAS100 algoritmik ticaret. Bilesenler: sinyal motoru, yurutme servisi, risk motoru (pozisyon limiti, drawdown, kill-switch), bar replay backtest, emir akisi analitigi, funding/carry takibi, momentum siralama ve sepet kurgusu, kesitsel analitik, volatilite rejim siniflandirici, piyasa verisi kaydedici, equity/PnL gunlugu, canli ogrenme dongusu, bilesik getiri regulatoru, canli izleme panelleri. Strateji ve parametreler private.
-
-**E-ticaret ve is otomasyonu.** Arsivin ikinci en buyuk hacimli alani. Shopify magaza operasyonlari: gelir optimizasyonu, magaza yapilandirmasi, toplu urun katalogu uretimi (CSV/UTF-8 hatlari), script destekli yonetim, uluslararasi satis plani, urun gorunurlugu ve operasyon akisi duzeltmeleri; otomatik B2B kazanc sistemi tasarimi; kurumsal iletisim ve marka altyapisi.
-
-**Web, arayuz ve tasarim sistemleri.** Kimlik ve platform sitelerinin birden cok nesli, tasarim token setleri, yeniden kullanilabilir arayuz kitleri, React duzeltmeleri, SQL panel duzenlemeleri, Streamlit ic araclar, erisilebilirlik destegi, Cloudflare Workers/Pages dagitimi, teknik SEO.
-
-**3B uretim ve gorsel tasarim.** Blender'da Python ile pipeline otomasyonu (sahne, materyal/doku, scriptli uretim, disa aktarma), otomotiv gorsellestirme ve render, poster/kapak tasarimi, logo ve marka kimligi setleri, fotograf duzenleme.
-
-**Masaustu araclar ve sistem otomasyonu.** Windows pencere/sekme aktivite izleyicisi, PowerShell ve Python otomasyon scriptleri, surec ve kaynak izleme, belge isleme (e-fatura/e-arsiv PDF), veri cekme araclari.
-
-Detayli teknik arsiv: **[baranfiratsahin.github.io](https://baranfiratsahin.github.io/)**
-
-## ⬢ Projeler / Featured
-
-| Proje | Ne yapar |
-|-------|----------|
-| **[▸ fsahin.com — World Terminal](https://github.com/baranfiratsahin/baranfiratsahin-worldmap)** | Tam ekran, canlı veri dünya terminali · 13 gerçek akış · Cloudflare Worker + KV · **[CANLI ↗](https://fsahin.com)** |
-| **[Deprem & Yangın Acil İletişim Ağı](https://github.com/baranfiratsahin/Deprem-yangin-acil-offline-iletisim-agi)** | Afette altyapı çökse bile çalışan çevrimdışı mesh iletişim konsepti |
-| **[Systematic Trading Infrastructure](https://github.com/baranfiratsahin/Quantitive-trading-bot)** | Emir yaşam döngüsü · risk katmanı · backtest *(strateji private)* |
-| **[Multi-Venue Crypto System](https://github.com/baranfiratsahin/Trading-bot-hyperliquid-and-all-cryptos)** | Sinyal motoru · yürütme daemon'u · backtester *(alpha private)* |
-| **[Linux Security Toolkit](https://github.com/baranfiratsahin/DDOS-VULN-PENTEST-Linux-Bot-)** | Zafiyet taraması · pentest otomasyonu *(yetkili testler)* |
-| **[Yerli & Milli Offline LLM](https://github.com/baranfiratsahin/Yerli-ve-milli-yapay-zeka-LLM)** | Tamamen çevrimdışı yerel LLM · RAG · çok-personalı konsey |
+Detaylı sayfa: **[baranfiratsahin.github.io](https://baranfiratsahin.github.io/)**
 
 <div align="center">
 
@@ -70,25 +47,23 @@ Detayli teknik arsiv: **[baranfiratsahin.github.io](https://baranfiratsahin.gith
 ---
 
 ```console
-baran@firat-group:~$ whoami --full
+baran@firat-group:~$ whoami
   name      : Baran Fırat Şahin
   role      : IT Operations Manager · BEQW SYSTEMS [AR-GE]
   location  : Türkiye
   builds    : live systems · security tooling · trading infra · offline AI
-  doctrine  : real data · honest failures · ships to production
-  flagship  : https://fsahin.com  →  fullscreen live-data world terminal
+  flagship  : https://fsahin.com
 ```
 
 <div align="center">
 
 ![Kali](https://img.shields.io/badge/Offensive_Security-Kali-7cd5ff?style=flat-square&logo=kalilinux&logoColor=7cd5ff&labelColor=0b0e14)
-![JS](https://img.shields.io/badge/JavaScript-vanilla-ffb000?style=flat-square&logo=javascript&logoColor=ffb000&labelColor=0b0e14)
-![Python](https://img.shields.io/badge/Python-3-39ff88?style=flat-square&logo=python&logoColor=39ff88&labelColor=0b0e14)
-![Cloudflare](https://img.shields.io/badge/Cloudflare-Workers_·_KV-ffb000?style=flat-square&logo=cloudflare&logoColor=ffb000&labelColor=0b0e14)
-![AI](https://img.shields.io/badge/LLM_·_RAG-offline-7cd5ff?style=flat-square&logo=openai&logoColor=7cd5ff&labelColor=0b0e14)
-![MT5](https://img.shields.io/badge/MetaTrader_5-markets-ff3355?style=flat-square&labelColor=0b0e14)
+![JS](https://img.shields.io/badge/JavaScript-ffb000?style=flat-square&logo=javascript&logoColor=ffb000&labelColor=0b0e14)
+![Python](https://img.shields.io/badge/Python-39ff88?style=flat-square&logo=python&logoColor=39ff88&labelColor=0b0e14)
+![Cloud](https://img.shields.io/badge/Edge_·_Cloud-ffb000?style=flat-square&logo=cloudflare&logoColor=ffb000&labelColor=0b0e14)
+![AI](https://img.shields.io/badge/Applied_AI-offline-7cd5ff?style=flat-square&logo=openai&logoColor=7cd5ff&labelColor=0b0e14)
 ![Linux](https://img.shields.io/badge/Linux-hardening-ffb000?style=flat-square&logo=linux&logoColor=ffb000&labelColor=0b0e14)
 
-**[fsahin.com](https://fsahin.com)** · **[baranfiratsahin.github.io](https://baranfiratsahin.github.io/)** · `builds live systems`
+**[fsahin.com](https://fsahin.com)** · **[baranfiratsahin.github.io](https://baranfiratsahin.github.io/)**
 
 </div>
