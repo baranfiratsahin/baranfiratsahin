@@ -15,25 +15,35 @@
 
 </div>
 
-## ⬢ Calisma alanlari — tam kapsam
+## ⬢ Calisma hacmi ve alanlar (2024-2026)
 
-2024 ortasindan bugune suren calisma; kisisel arsivde bu doneme ait **126 ayri teknik konu** kayitli (en yogun donem 2025). 60+ acik depo; bazi sistemler operasyonel guvenlik veya ticari gizlilik geregi kapali.
+Haziran 2024 - Haziran 2026 arasindaki calisma arsivi: **575 calisma oturumu**, toplam **113.792 mesaj**. Oturum basina ortalama 198 mesaj; en yogun tek calisma 2.655 mesaj. Yil dagilimi: 2024'te 64, 2025'te 377, 2026'nin ilk yarisinda 134 oturum.
 
-**Siber guvenlik.** Kali Linux uzerinde penetrasyon testi ve zafiyet taramasi, Nuclei tabanli tarama akislari ve raporlama otomasyonu, bug bounty amacli arac gelistirme, ag seviyesinde DPI ve engelleme mekanizmalarinin analizi, sifreleme uygulamalari, bulut guvenligi ve kimlik dogrulama yapilandirmasi (MFA, erisim politikalari), gizlilik sertlestirme. Yalnizca yetkili degerlendirmeler kapsaminda.
+| Hacim | Alan |
+|---|---|
+| **25.776 mesaj** | Ticaret ve piyasa altyapilari — otonom bot gelistirme, tahmin piyasasi, kaldiracli kripto, forex/endeks, gosterge ve portfoy arastirmasi |
+| **19.754 mesaj** | E-ticaret ve is operasyonu — Shopify magaza optimizasyonu, katalog uretimi, uluslararasi satis, B2B otomasyon |
+| **16.744 mesaj** | Web, platform ve arayuz — kimlik siteleri, panel/dashboard, API ve kenar dagitimi |
+| **11.146 mesaj** | Yapay zeka, ajan ve LLM sistemleri — ajan modlari, istem muhendisligi, RAG, model secimi, hafiza mimarileri |
+| **9.811 mesaj** | Veri, otomasyon ve script — arsiv ayristirma, JSON/CSV donusum, veri cekme, surec otomasyonu |
+| **7.230 mesaj** | Tasarim, 3B ve gorsel uretim — Blender pipeline, otomotiv render, marka ve grafik tasarim |
+| **4.114 mesaj** | Siber guvenlik — pentest, zafiyet tarama, bug bounty araclari, sifreleme, ag analizi |
 
-**Canli veri altyapilari.** [fsahin.com](https://fsahin.com) World Terminal — 16 canli akis (USGS/AFAD deprem, NASA EONET yangin, toplulukADS-B ucuslari, ISS, RainViewer yagis radari, NOAA Kp uzay havasi, Open-Meteo hava/AQI, TR + dunya haberleri, IODA internet kesintileri, piyasa verileri, Wikimedia olay akisi) tek Cloudflare Worker + KV uzerinde, cercevesiz saf JavaScript + Leaflet ile. Kaynak duserse veri uydurulmaz, panel `SIGNAL LOST` durumuna gecer. Oncesinde ilk nesil canli harita denemeleri, uydu/hava goruntusu ve tile isleme hatti.
+**Siber guvenlik.** Kali Linux uzerinde penetrasyon testi ve zafiyet taramasi, Nuclei tabanli tarama akislari ve raporlama otomasyonu, bug bounty amacli arac gelistirme, ag seviyesinde DPI analizi, sifreleme uygulamalari, bulut guvenligi ve kimlik dogrulama yapilandirmasi (MFA, erisim politikalari). Yalnizca yetkili degerlendirmeler kapsaminda.
 
-**Uygulamali yapay zeka, RAG ve ajan sistemleri.** Tamamen cevrimdisi yerel LLM (GLM-4-9B) tabanli akil yurutme; elle kurulmus RAG hatti: BM25 indeks, hibrit skor fuzyonuyla yeniden siralama, baglamsal parca oneki, parca siniri skorlama, erisim benchmark kosucusu; cok-personali konsey mimarisi; otonom ajan modlari ve gorev donguleri, ajan istem muhendisligi, model ailesi karsilastirma/secimi, MCP sunuculari, beceri ve is akisi otomasyonu, terminal HUD araclari, sesli asistan, sohbet arsivi denetim ve ozetleme sistemleri.
+**Canli veri altyapilari.** [fsahin.com](https://fsahin.com) World Terminal — 16 canli akis (USGS/AFAD deprem, NASA EONET yangin, toplulukADS-B ucuslari, ISS, RainViewer yagis radari, NOAA Kp uzay havasi, Open-Meteo hava/AQI, TR + dunya haberleri, IODA internet kesintileri, piyasa verileri, Wikimedia olay akisi) tek Cloudflare Worker + KV uzerinde, cercevesiz saf JavaScript + Leaflet ile. Kaynak duserse veri uydurulmaz, panel `SIGNAL LOST` durumuna gecer.
 
-**Veri kurtarma ve korpus muhendisligi.** Uc yillik arsivin kurtarilmasi — yuzlerce konusmanin tek sorgulanabilir JSON korpusuna donusturulmesi, ayristirma/dogrulama scriptleri, zaman cizelgesi ve profil cikarimi, konu bazli ozetleme; varlik-kavram-kaynak yapisinda Obsidian bilgi kasasi; JSON sema duzeltme, CSV/UTF-8 donusum ve toplu katalog uretimi.
+**Yapay zeka, RAG ve ajan sistemleri.** Tamamen cevrimdisi yerel LLM (GLM-4-9B) tabanli akil yurutme; elle kurulmus RAG hatti: BM25 indeks, hibrit skor fuzyonuyla yeniden siralama, baglamsal parca oneki, parca siniri skorlama, erisim benchmark kosucusu; cok-personali konsey mimarisi; otonom ajan modlari ve gorev donguleri, ajan istem muhendisligi, model ailesi karsilastirma/secimi, MCP sunuculari, beceri ve is akisi otomasyonu, terminal HUD araclari, sesli asistan, sohbet arsivi denetim ve ozetleme sistemleri.
 
-**Piyasa altyapilari ve otonom ticaret.** Tahmin piyasasi (Polymarket) tarama/arbitraj/yurutme catisi, kaldiracli kripto ticaret cekirdegi (Binance, Hyperliquid), MetaTrader 5 uzerinde XAUUSD/NAS100 algoritmik ticaret. Bilesenler: sinyal motoru, yurutme daemon servisi, risk motoru (pozisyon limiti, drawdown, kill-switch), bar replay backtest, emir akisi analitigi, funding/carry takibi, momentum siralama ve sepet kurgusu, kesitsel analitik, volatilite rejim siniflandirici, piyasa verisi kaydedici, equity/PnL gunlugu, canli ogrenme dongusu, bilesik getiri regulatoru, canli izleme panelleri; teknik gosterge arastirmasi ve madencilik/kontrol yazilimi kurulumu. Strateji ve parametreler private.
+**Veri kurtarma ve korpus muhendisligi.** Iki yillik arsivin kurtarilmasi — 575 oturumun tek sorgulanabilir korpusa donusturulmesi (ham arsiv ~495 MB), ayristirma/dogrulama scriptleri, zaman cizelgesi ve profil cikarimi, konu bazli ozetleme; varlik-kavram-kaynak yapisinda Obsidian bilgi kasasi (140+ not); JSON sema duzeltme, CSV/UTF-8 donusum ve toplu katalog uretimi.
 
-**E-ticaret ve is otomasyonu.** Shopify magaza operasyonlari: toplu urun katalogu uretimi (CSV/UTF-8 hatlari), script destekli magaza yonetimi, uluslararasi satis plani, urun gorunurlugu ve operasyon akisi duzeltmeleri; otomatik B2B kazanc sistemi tasarimi; kurumsal iletisim ve marka altyapisi.
+**Piyasa altyapilari ve otonom ticaret.** Tahmin piyasasi (Polymarket) tarama/arbitraj/yurutme catisi, kaldiracli kripto ticaret cekirdegi (Binance, Hyperliquid), MetaTrader 5 uzerinde XAUUSD/NAS100 algoritmik ticaret. Bilesenler: sinyal motoru, yurutme servisi, risk motoru (pozisyon limiti, drawdown, kill-switch), bar replay backtest, emir akisi analitigi, funding/carry takibi, momentum siralama ve sepet kurgusu, kesitsel analitik, volatilite rejim siniflandirici, piyasa verisi kaydedici, equity/PnL gunlugu, canli ogrenme dongusu, bilesik getiri regulatoru, canli izleme panelleri. Strateji ve parametreler private.
 
-**Web, arayuz ve tasarim sistemleri.** Kimlik ve platform sitelerinin birden cok nesli, tasarim token setleri (renk/tipografi/durum), yeniden kullanilabilir arayuz kitleri, React arayuz duzeltmeleri, SQL panel duzenlemeleri, Streamlit ic araclar, erisilebilirlik ve azaltilmis hareket destegi, Cloudflare Workers/Pages dagitimi, teknik SEO.
+**E-ticaret ve is otomasyonu.** Arsivin ikinci en buyuk hacimli alani. Shopify magaza operasyonlari: gelir optimizasyonu, magaza yapilandirmasi, toplu urun katalogu uretimi (CSV/UTF-8 hatlari), script destekli yonetim, uluslararasi satis plani, urun gorunurlugu ve operasyon akisi duzeltmeleri; otomatik B2B kazanc sistemi tasarimi; kurumsal iletisim ve marka altyapisi.
 
-**3B uretim ve gorsel tasarim.** Blender'da Python ile pipeline otomasyonu (sahne, materyal/doku, scriptli uretim, disa aktarma), otomotiv gorsellestirme ve render calismalari, poster/kapak tasarimi, logo ve marka kimligi setleri, fotograf duzenleme ve stil aktarimi.
+**Web, arayuz ve tasarim sistemleri.** Kimlik ve platform sitelerinin birden cok nesli, tasarim token setleri, yeniden kullanilabilir arayuz kitleri, React duzeltmeleri, SQL panel duzenlemeleri, Streamlit ic araclar, erisilebilirlik destegi, Cloudflare Workers/Pages dagitimi, teknik SEO.
+
+**3B uretim ve gorsel tasarim.** Blender'da Python ile pipeline otomasyonu (sahne, materyal/doku, scriptli uretim, disa aktarma), otomotiv gorsellestirme ve render, poster/kapak tasarimi, logo ve marka kimligi setleri, fotograf duzenleme.
 
 **Masaustu araclar ve sistem otomasyonu.** Windows pencere/sekme aktivite izleyicisi, PowerShell ve Python otomasyon scriptleri, surec ve kaynak izleme, belge isleme (e-fatura/e-arsiv PDF), veri cekme araclari.
 
