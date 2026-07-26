@@ -15,21 +15,29 @@
 
 </div>
 
-## ⬢ Sistemler / What's here
+## ⬢ Calisma alanlari — tam kapsam
 
-Bu profildeki depolar dört alanda toplanır: **canlı veri altyapıları**, **güvenlik araçları**, **çevrimdışı yapay zeka** ve **piyasa altyapıları**.
+2024 ortasindan bugune suren calisma; kisisel arsivde bu doneme ait **126 ayri teknik konu** kayitli (en yogun donem 2025). 60+ acik depo; bazi sistemler operasyonel guvenlik veya ticari gizlilik geregi kapali.
 
-**[fsahin.com](https://fsahin.com) — World Terminal.** Tek ekranda 16 canlı veri akışını harita üzerinde birleştiren gerçek zamanlı terminal: deprem (USGS/AFAD), yangın ve doğa olayları (NASA EONET), uçuşlar (topluluk ADS-B ağları, 8 bölgelik ızgara + saniyelik ara değerleme), ISS, yağış radarı (RainViewer), uzay havası (NOAA Kp), hava ve hava kalitesi (Open-Meteo), TR + dünya haber akışı, internet kesintileri (IODA/Georgia Tech), piyasa verileri ve Wikimedia canlı olay akışı. Çerçeve, derleme adımı ve paketleyici kullanılmadan saf JavaScript + Leaflet ile yazıldı; tek bir Cloudflare Worker üzerinde çalışıyor, durum Workers KV'de tutuluyor. Tasarım ilkesi: her değer canlı bir kaynağa iner, kaynak düşerse veri uydurulmaz — panel `SIGNAL LOST` durumuna geçer. Haber başlığında geçen yer adı haritada işaretlenir.
+**Siber guvenlik.** Kali Linux uzerinde penetrasyon testi ve zafiyet taramasi, Nuclei tabanli tarama akislari ve raporlama otomasyonu, bug bounty amacli arac gelistirme, ag seviyesinde DPI ve engelleme mekanizmalarinin analizi, sifreleme uygulamalari, bulut guvenligi ve kimlik dogrulama yapilandirmasi (MFA, erisim politikalari), gizlilik sertlestirme. Yalnizca yetkili degerlendirmeler kapsaminda.
 
-**Güvenlik.** Kali Linux ekosistemi üzerine kurulu, yetkili değerlendirmeler için zafiyet taraması ve penetrasyon testi otomasyonu; sistem sertleştirme akışları.
+**Canli veri altyapilari.** [fsahin.com](https://fsahin.com) World Terminal — 16 canli akis (USGS/AFAD deprem, NASA EONET yangin, toplulukADS-B ucuslari, ISS, RainViewer yagis radari, NOAA Kp uzay havasi, Open-Meteo hava/AQI, TR + dunya haberleri, IODA internet kesintileri, piyasa verileri, Wikimedia olay akisi) tek Cloudflare Worker + KV uzerinde, cercevesiz saf JavaScript + Leaflet ile. Kaynak duserse veri uydurulmaz, panel `SIGNAL LOST` durumuna gecer. Oncesinde ilk nesil canli harita denemeleri, uydu/hava goruntusu ve tile isleme hatti.
 
-**Çevrimdışı yapay zeka.** Buluta bağlanmadan çalışan akıl yürütme sistemi: yerel dil modeli (GLM-4-9B), kişisel arşiv üzerinde RAG (BM25 indeks, hibrit yeniden sıralama, bağlamsal parça sınırı skorlama) ve bir soruyu çok sesli tartışan panel mimarisi.
+**Uygulamali yapay zeka, RAG ve ajan sistemleri.** Tamamen cevrimdisi yerel LLM (GLM-4-9B) tabanli akil yurutme; elle kurulmus RAG hatti: BM25 indeks, hibrit skor fuzyonuyla yeniden siralama, baglamsal parca oneki, parca siniri skorlama, erisim benchmark kosucusu; cok-personali konsey mimarisi; otonom ajan modlari ve gorev donguleri, ajan istem muhendisligi, model ailesi karsilastirma/secimi, MCP sunuculari, beceri ve is akisi otomasyonu, terminal HUD araclari, sesli asistan, sohbet arsivi denetim ve ozetleme sistemleri.
 
-**Piyasa altyapısı.** Emir yaşam döngüsü, risk katmanı (pozisyon limitleri, drawdown koruması, acil durdurma), backtest iskeleti ve equity/PnL günlüğü. Strateji ve parametreler tasarım gereği private.
+**Veri kurtarma ve korpus muhendisligi.** Uc yillik arsivin kurtarilmasi — yuzlerce konusmanin tek sorgulanabilir JSON korpusuna donusturulmesi, ayristirma/dogrulama scriptleri, zaman cizelgesi ve profil cikarimi, konu bazli ozetleme; varlik-kavram-kaynak yapisinda Obsidian bilgi kasasi; JSON sema duzeltme, CSV/UTF-8 donusum ve toplu katalog uretimi.
 
-**Ayrıca:** afet anında altyapı çöktüğünde çalışan çevrimdışı mesh iletişim ağı konsepti, arşiv kurtarma araçları, harita/tile işleme, tasarım sistemi token setleri ve Blender pipeline otomasyonu.
+**Piyasa altyapilari ve otonom ticaret.** Tahmin piyasasi (Polymarket) tarama/arbitraj/yurutme catisi, kaldiracli kripto ticaret cekirdegi (Binance, Hyperliquid), MetaTrader 5 uzerinde XAUUSD/NAS100 algoritmik ticaret. Bilesenler: sinyal motoru, yurutme daemon servisi, risk motoru (pozisyon limiti, drawdown, kill-switch), bar replay backtest, emir akisi analitigi, funding/carry takibi, momentum siralama ve sepet kurgusu, kesitsel analitik, volatilite rejim siniflandirici, piyasa verisi kaydedici, equity/PnL gunlugu, canli ogrenme dongusu, bilesik getiri regulatoru, canli izleme panelleri; teknik gosterge arastirmasi ve madencilik/kontrol yazilimi kurulumu. Strateji ve parametreler private.
 
-Detaylı teknik arşiv: **[baranfiratsahin.github.io](https://baranfiratsahin.github.io/)**
+**E-ticaret ve is otomasyonu.** Shopify magaza operasyonlari: toplu urun katalogu uretimi (CSV/UTF-8 hatlari), script destekli magaza yonetimi, uluslararasi satis plani, urun gorunurlugu ve operasyon akisi duzeltmeleri; otomatik B2B kazanc sistemi tasarimi; kurumsal iletisim ve marka altyapisi.
+
+**Web, arayuz ve tasarim sistemleri.** Kimlik ve platform sitelerinin birden cok nesli, tasarim token setleri (renk/tipografi/durum), yeniden kullanilabilir arayuz kitleri, React arayuz duzeltmeleri, SQL panel duzenlemeleri, Streamlit ic araclar, erisilebilirlik ve azaltilmis hareket destegi, Cloudflare Workers/Pages dagitimi, teknik SEO.
+
+**3B uretim ve gorsel tasarim.** Blender'da Python ile pipeline otomasyonu (sahne, materyal/doku, scriptli uretim, disa aktarma), otomotiv gorsellestirme ve render calismalari, poster/kapak tasarimi, logo ve marka kimligi setleri, fotograf duzenleme ve stil aktarimi.
+
+**Masaustu araclar ve sistem otomasyonu.** Windows pencere/sekme aktivite izleyicisi, PowerShell ve Python otomasyon scriptleri, surec ve kaynak izleme, belge isleme (e-fatura/e-arsiv PDF), veri cekme araclari.
+
+Detayli teknik arsiv: **[baranfiratsahin.github.io](https://baranfiratsahin.github.io/)**
 
 ## ⬢ Projeler / Featured
 
